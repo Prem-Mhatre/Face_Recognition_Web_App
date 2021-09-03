@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+.objects{
+    background: white;
+    color: black;
+    box-shadow: 1px 10px 25px grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+body{
+    background: linear-gradient(180deg,  #2196c4, #25a7da, skyblue, white);
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+.heading{
+    font-size: 35px;
+    color: white;
+    font-family: Roboto Mono;
+}
+.objects_name_p{
+    color: white;
+    font-size: 22px;
+}
+b{
+    font-size: 18px;
+}
+label{
+    font-size: 20px;
+}
+#camera, #result{
+    width: 350px;
+    height: 300px;
+    border: 2px dashed black;
+}
+.object_results{
+    font-size: 25px;
+    font-weight: bold;
+}
+.btn_footer{
+    background: linear-gradient(90deg, #a7dcf1, #1e85ae) !important;
+    border: 2px solid skyblue !important;
+    color: white !important;
+    padding-left: 25px;
+    padding-right: 25px; 
+}
+.btn_footer:hover{
+    box-shadow: 1px 6px 23px grey;
+}
